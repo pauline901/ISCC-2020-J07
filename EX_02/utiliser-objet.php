@@ -8,6 +8,5 @@ echo '<p>'.$date2->format('2020-06-22').'</p>';
 $date2 = $date1->diff (new DateTime('2020-06-22'));
 echo $date2->d.'jours <br>';
 echo $date2->h.'heures <br>';
-echo $date2->i.'minutes <br>';
-echo $date2->s.'secondes';
+echo $date2->i.'minutes depuis le début de la piscine.<br>';
 ?>
